@@ -7,6 +7,7 @@ export default class cell extends cc.Component {
     @property([cc.SpriteFrame])
     pic: Array<cc.SpriteFrame> = []
     pictype:picType
+    //声明下x,y属性以便于确定元素位置
     x:number
     y:number
     choose(pictype: picType) {
